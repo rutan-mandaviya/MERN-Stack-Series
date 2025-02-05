@@ -1,0 +1,34 @@
+/* Reset Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default Body Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    perspective: 700px;
+
+}
+
+#main{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+    border: 1px solid white;
+    flex-shrink: 1;
+}
+@keyframes chacha {
+
+}
