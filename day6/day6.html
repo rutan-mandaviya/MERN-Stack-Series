@@ -1,66 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="day6.css">
-</head>
-<body>
-    <div id="main">
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
-        <div class="box">
-    
-        </div>
 
-    </div>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font (Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     
-</body>
+  </head>
+  <body style="font-family: 'Montserrat';">
+    <div class="main w-full h-screen flex items-center bg-gray-200">
+      <div class="container mx-auto w-96 flex flex-col items-center rounded-md py-5 bg-white">
+        <form class="form w-80 flex flex-col leading-8 font-medium mb-3">
+          <h1 class="contact text-center text-3xl font-medium mb-5">Contact Us</h1>
+          <label for="name">User:</label>
+          <input class="name rounded-md border-2 px-2 py-1 outline-blue-400" type="text" placeholder="Username" id="name">
+          <label for="email">Email:</label>
+          <input class="email rounded-md border-2 px-2 py-1 outline-blue-400" type="email" placeholder="Email" id="email">
+          <label for="message">Message:</label>
+          <textarea class="message px-2 py-1 border-2 rounded-md max-h-32 mb-3 outline-blue-400" name="Message" id="message" cols="30" rows="5" placeholder="Message here..."></textarea>
+          <input class="btn border-2 rounded-md hover:bg-blue-500 hover:text-white cursor-pointer py-2" type="button" value="Send Message">
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
