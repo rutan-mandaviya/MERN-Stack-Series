@@ -15,6 +15,10 @@ console.log(5 - 5);
 console.log(5 * 5);
 console.log(5 / 5);
 console.log(5 % 5);
+console.log(5 === 5);//true strictly check types
+console.log(5 == '5');//true compare only value not check types
+console.log(5 === '5');//false
+console.log(5 == 5);//true
 
 // initialize & declarations
 var name; // initialize
@@ -23,7 +27,6 @@ name = "John"; // declaration
 
 // variables
 
-// var
 var name = "John"; //global varible it shows in window object changes
 name="rutan"
 console.log(name);
