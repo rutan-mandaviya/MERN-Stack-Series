@@ -1,0 +1,62 @@
+/* Reset Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+/* Default Body Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#box {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    /* gap: 30px; */
+}
+#box h2{
+    font-size: 30px;
+
+}
+#box h1{
+    
+    text-align:center;
+    font-size: 150px;
+    margin: 30px 50px;
+   border: 10px solid rgb(32, 189, 207);
+    gap: 30px;
+    color: black;
+    background-color: #dadada;
+    border-radius: 20px;
+}
+
+#box button{
+    border-radius: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: lightgreen;
+    padding: 10px 10px;
+
+    text-align: center;
+  
+
+}
+button:active{
+    scale: 0.9;
+}

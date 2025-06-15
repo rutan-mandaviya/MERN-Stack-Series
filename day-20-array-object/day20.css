@@ -1,0 +1,16 @@
+/* Reset Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default Body Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Optional: Light background color */
+    color: #333; /* Optional: Default text color */
+}

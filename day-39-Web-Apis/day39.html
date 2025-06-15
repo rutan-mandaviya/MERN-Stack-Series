@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="day39.css">
+</head>
+<body class="h-screen">
+    <div class="bg-white px-5 py-2 rounded">
+        <h1 class="text-4xl">👇🏻</h1>
+        <div id="progessbar" class="w-90 h-8 bg-gray-300 overflow-hidden rounded-full mt-5">
+                <div id="progress" class="bg-green-400 w-0 h-full rounded-full"></div>
+        </div>
+        <div id="grow" class="flex justify-end">
+            <h1 class="text-xl font-semibold py-3">0%</h1>
+        </div>
+        <div class="flex justify-between">
+            <h1 class="text-lg">song1.mp3</h1>
+            <button class="text-lg bg-green-500 active:scale-95 px-5 py-2 rounded text-white">Download</button>
+        </div>
+    </div>
+
+    <script src="day39.js"></script>
+</body>
+</html>

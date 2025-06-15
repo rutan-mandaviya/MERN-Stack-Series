@@ -1,0 +1,44 @@
+/* Reset Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default Body Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+    #card{
+     background-color: white;
+    padding: 20px 60px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+#card h5{
+    color: red;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+#box{
+    height:200px;
+    width: 200px;
+    background: #444;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
