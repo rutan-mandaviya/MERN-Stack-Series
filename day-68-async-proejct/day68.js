@@ -102,6 +102,3 @@ userinp.addEventListener("keypress", function(e) {
  }
 });
 
-let recent = [];
-
-
